@@ -1,0 +1,72 @@
+body,html{
+height:100%
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+    padding:1em;
+    background-color:gray;
+}
+header,footer{
+    background: #c5c5c5;
+    padding: 1em;
+}
+.container{
+    max-width:1000px;
+    min-height:100%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav ul{
+    display:flex;
+    margin:0;
+    width:100%;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+form{
+    width:25%;
+    /* text-align: center; */
+    margin:auto;
+    /* margin-top: 20px; */
+    /* paddingem; */
+    border:2px solid black;
+    padding: 1em; 
+}
+#contact{
+    text-align: center;
+    margin:auto;
+    /* padding: 1em; */
+}
+/* footer{ */
+    /* padding: 1em; */
+    /* margin-top: 1em; */
+/* } */
+.jumbotron.jumbotron-fluid{
+    padding:100px;
+    background-color: pink;
+}
+#about{
+    text-align: center;
+}
+nav{
+    margin:1em;
+}
+.alert{
+    margin:auto;
+    width:25%;
+}
+#services{
+    text-align: center;
+}
+.list{
+    text-align: center;
+    width: 25%;
+    margin:auto;
+}
+#products{
+    text-align: center;
+}
